@@ -56,6 +56,14 @@ Logistic Regression demonstrated improved recall after threshold tuning, making 
 
 ---
 
+📈 ROC–AUC Analysis
+
+-ROC curves are plotted for both Logistic Regression and Random Forest
+-AUC scores are computed using predicted probabilities
+-This helps in understanding model performance across different threshold values
+
+---
+
 ## 🧪 Technologies Used
 - Python
 - Pandas
@@ -72,7 +80,6 @@ Logistic Regression, when combined with feature scaling and threshold tuning, pr
 ---
 
 ## 📌 Future Improvements
-- ROC Curve and AUC comparison
 - Precision–Recall curve analysis
 - Hyperparameter tuning
 - Evaluation of additional classifiers (KNN, SVM)
